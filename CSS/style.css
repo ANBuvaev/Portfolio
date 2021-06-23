@@ -1,6 +1,7 @@
 .body{
     font-family: 'Inter', sans-serif;
     background-color: E5E5E5;
+    font-size: 14px;
 }
 .dark{
     background-color: #232326;
@@ -30,6 +31,11 @@
     font-size: 70px;
     text-transform: uppercase ;
     
+    
+}
+.tittle-h3 {
+    font-size: 16px;
+    font-weight:700 ;
 }
 .photo{
     margin-bottom: 113px;
@@ -73,4 +79,41 @@ header{
 }
 .nav-link:hover{
     color: #D40000;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    margin-top: 100px;
+}
+.project {
+    margin: 0 ;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    
+    
+}
+.project-img {
+    width: 16px;
+    height: 12px;
+    display: block;
+    background-image:url(../img/arrow.svg);
+    margin-left: 15px;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-item{
+    flex: 0 0 24%;
+}
+.skill .tittle-h3{
+    text-transform: uppercase;
+
+}
+.skill .description{
+    line-height: 150%;
 }
