@@ -35,6 +35,9 @@ fill: #D40000;
 .dark .triangle path {
     fill: #F3F2F0;
     }
+    .dark .social {
+        border-bottom: 1px solid #F3F2F0 ;
+    }
 .light{
     background-color: #F3F2F0;
     color: #010101;
@@ -49,6 +52,9 @@ fill: #D40000;
     .light .triangle path {
         fill: #D40000;
         
+        }
+        .light .social {
+            border-bottom: 1px solid #010101 ;
         }
 .wraper{
     max-width: 1140px;
@@ -131,6 +137,7 @@ header{
     justify-content: space-between;
     padding-bottom: 60px;
     margin-top: 100px;
+    border-bottom: 1px solid #F3F2F0  ;
     
 }
 .social-item :last-child{
@@ -158,9 +165,10 @@ header{
 .skill{
     display: flex;
     justify-content: space-between;
+    padding-top: 60px;
 }
 .skill-item{
-    flex: 0 0 24%;
+    flex: 0 0 21%;
 }
 .skill .tittle-h3{
     text-transform: uppercase;
