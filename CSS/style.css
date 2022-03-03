@@ -145,6 +145,7 @@ header{
     text-decoration: none ;
     color: #F3F2F0;
     font-size: 14px;
+    transition: 0.2s color ease;
     
 }
 .nav-link:hover{
@@ -169,8 +170,13 @@ header{
     align-items: center;
     font-size: 16px;
     font-weight: 700;
-    
-    
+    padding-bottom: 11px;
+    transition: 0.2s border-bottom ease;
+    border-bottom: 2px solid transparent;
+}
+.project :hover{
+    border-bottom: 2px solid #F3F2F0;
+  
 }
 .project-img {
     width: 16px;
@@ -297,3 +303,17 @@ padding-bottom: 62px;
     line-height: 150%;
     opacity: 0.8;
 }
+.nav-tabs{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.nav-tabs-item{
+    margin-right: 40px;
+}
+.nav-tabs-link{
+    border-bottom: 1px solid #F3F2F0;
+    padding-bottom: 10px;
+}
+
